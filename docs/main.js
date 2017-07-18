@@ -7753,7 +7753,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 var createRoutes = function createRoutes(store) {
   return {
-    path: '/',
+    path: '/react-awesome-ui/',
     component: __WEBPACK_IMPORTED_MODULE_0__layouts_PageLayout_PageLayout__["a" /* default */],
     indexRoute: __WEBPACK_IMPORTED_MODULE_1__Home__["a" /* default */],
     childRoutes: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__Counter__["a" /* default */])(store)]
