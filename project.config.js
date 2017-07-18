@@ -12,7 +12,7 @@ module.exports = {
   /** The name of the directory in which to emit compiled assets */
   outDir: 'docs',
   /** The base path for all projects assets (relative to the website root) */
-  publicPath: '/',
+  publicPath: '/docs/',
   /** Whether to generate sourcemaps */
   sourcemaps: true,
   /** A hash map of keys that the compiler should treat as external to the project */
