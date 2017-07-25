@@ -1,59 +1,66 @@
-# Contributing Guidelines
+## Contributing to React Starter Kit
 
-Some basic conventions for contributing to this project.
+React Starter Kit is currently the most widely adopted Node.js/React boilerplate used by many
+tech startups around the globe. We're working hard to keep it up to date, making sure that it
+follows best practices and high coding standards, paying extremely close attention to details.
 
-### General
+Your contributions are welcome and are greatly appreciated! Every little bit helps, and credit
+will always be given.
 
-Please make sure that there aren't existing pull requests attempting to address the issue mentioned. Likewise, please check for issues related to update, as someone else may be working on the issue in a branch or fork.
+Please take a moment to review this document in order to make the contribution process easy and
+effective for everyone involved.
 
-* Non-trivial changes should be discussed in an issue first
-* Develop in a topic branch, not master
-* Squash your commits
+### Conduct
 
-### Linting
+Please, follow the [golden rule](https://en.wikipedia.org/wiki/Golden_Rule). Be respectful, even to
+those that are disrespectful.
 
-Please check your code using `npm run lint` before submitting your pull requests, as the CI build will fail if `eslint` fails.
+### Feedback
 
-### Commit Message Format
+Feedback is the breakfast for champions! We'd love to hear your opinions, discuss potential
+improvements, architecture, theory, internal implementation, etc. Please, join or start a new
+conversation in our [issue tracker](https://github.com/kriasoft/react-starter-kit/issues),
+[Gitter](https://gitter.im/kriasoft/react-starter-kit) chat room, or let's talk face-to-face on
+[Appear.in](https://appear.in/react) or [Skype](http://hatscripts.com/addskype?koistya).
 
-Each commit message should include a **type**, a **scope** and a **subject**:
+### Documentation
 
-```
- <type>(<scope>): <subject>
-```
+We need your help with improving documentation to the project. This might be the easiest way for
+you to contribute, because you don't even need to clone the repo but can edit or create new `.md`
+files right from GitHub website as described [here](https://help.github.com/articles/editing-files-in-your-repository/).
 
-Lines should not exceed 100 characters. This allows the message to be easier to read on github as well as in various git tools and produces a nice, neat commit log ie:
+### Bugs & Feature Requests
 
-```
- #271 feat(standard): add style config and refactor to match
- #270 fix(config): only override publicPath when served by webpack 
- #269 feat(eslint-config-defaults): replace eslint-config-airbnb 
- #268 feat(config): allow user to configure webpack stats output 
-``` 
+Before opening an issue, please:
 
-#### Type
+* Check the [Getting Started](https://github.com/kriasoft/react-starter-kit/blob/master/docs/getting-started.md) guide.
+* Search the [issue tracker](https://github.com/kriasoft/react-starter-kit/issues) to make sure
+  your issue hasn’t already been reported.
+* If your issue sounds more like a question, please post it on StackOverflow.com instead with the
+  tag [react-starter-kit](http://stackoverflow.com/questions/tagged/react-starter-kit).
 
-Must be one of the following:
+### Pull Requests
 
-* **feat**: A new feature
-* **fix**: A bug fix
-* **docs**: Documentation only changes
-* **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing
-  semi-colons, etc)
-* **refactor**: A code change that neither fixes a bug or adds a feature
-* **test**: Adding missing tests
-* **chore**: Changes to the build process or auxiliary tools and libraries such as documentation
-  generation
+Before you submit a [pull request](https://help.github.com/articles/using-pull-requests/) from your
+forked repo, check that it meets these guidelines:
 
-#### Scope
+* If the pull request adds functionality, the docs should be updated as part of the same PR.
+* Create a separate PR for each small feature or bug fix.
+* [Squash](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
+  your commits into one for each PR.
+* Run `yarn test` to make sure that your code style is OK and there are no any regression bugs.
+* When contributing to an opt-in feature, apply the `[feature/...]` tag as a prefix to your PR title
 
-The scope could be anything specifying place of the commit change. For example `webpack`,
-`babel`, `redux` etc...
+#### Style Guide
 
-#### Subject
+Our linter will catch most styling issues that may exist in your code. You can check the status
+of your code styling by simply running: `yarn lint`
 
-The subject contains succinct description of the change:
+However, there are still some styles that the linter cannot pick up. If you are unsure about
+something, looking at [Airbnb's Style Guide](https://github.com/airbnb/javascript) will guide you
+in the right direction.
 
-* use the imperative, present tense: "change" not "changed" nor "changes"
-* don't capitalize first letter
-* no dot (.) at the end
+### License
+
+By contributing to React Starter Kit, you agree that your contributions will be licensed under its
+[MIT license](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt).
